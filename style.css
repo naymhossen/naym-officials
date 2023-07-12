@@ -1,0 +1,274 @@
+/* common shared styels */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+    /* main section style */
+
+
+main{
+    margin-top: 130px;
+    }
+
+
+/* nav related styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color:#474747;
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: normal;
+}
+.primary-btn{
+     border-radius: 5px;
+     background-color: #FD6E0A;
+     border: 0;
+     color: white;
+     font-size: 20px;
+     font-weight: 700;
+     padding: 15px 35px;
+}
+.header{
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-image: url('./portfolio-resources/images/header_bg.png');
+    background-color: whitesmoke;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner .profile-img{
+    width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+  /* Main Section Design */
+
+
+  main{
+    max-width: 1650px;
+    margin: 0 auto;
+}
+
+    /* about section style */
+
+.about{
+    background-color:#FFF8F3 ;
+    padding: 120px;
+    margin: 10px;
+    border-radius: 10px;
+    margin: 130px 0;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+    color: #757575;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28PX;
+}
+#i-do-description{
+    padding: 30px 150px;
+}
+
+/* skilled container SECTION */
+
+
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+
+}
+.skill{
+    background-color: #fff;
+    box-shadow: 8px 6px 58px 0px rgba(0, 0, 0, 0.06) ;
+    padding: 30px;
+    border-radius: 5px;
+    
+}
+.skill-title{
+    color: #181818;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+}
+.skill-description{
+    color:#757575 ;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;    
+    text-align: justify;
+}
+
+
+/* resumme CONTAINER BOX */
+
+
+
+.resume-main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+    /* border: 1px solid gray; */
+}
+.education-title{
+    /* border: 1px solid gray; */
+    gap: 25px;
+    color: #181818;
+    background-color:#fff ;
+    text-align: left;
+}
+.education-experience{
+    color: #474747;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.first-cintainer{
+    color: #181818;
+    background-color: #fff;
+    margin-left:230px ;
+
+
+}
+.second-container{
+    background-color: #fff;
+}
+.sector-title{
+    color: #474747;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.year{
+    color:#757575;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.study-discription{
+    text-align:left;
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+#resume-section-btn{
+    margin-top: 50px;
+}
+
+/* fotter section design */
+
+.colum-section{
+    background-color:#FFF8F3 ;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 130px 200px;
+    gap: 100px;
+}
+.social-icon a {
+    margin-right: 25px;
+}
+.footer-colum-1{
+    width: 50%;
+    color: #181818;
+    text-align: left;
+    font-size: 35px;
+    font-style: normal; 
+    font-weight: 700;
+    line-height: normal;
+}
+.footer-colum-2{
+    width: 50%;
+    color: #181818;
+    text-align: left;
+    font-size: 35px;
+    font-style: normal; 
+    font-weight: 700;
+    line-height: normal;}
+.colum-description{
+    color:  #474747;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.contact-form, input, textarea{
+    display: block;
+    margin-bottom: 26px;
+    padding: 18px 35px;
+    color: #757575;
+    border: 0;
+    width: 100%;
+    border-radius: 5px;
+
+}
